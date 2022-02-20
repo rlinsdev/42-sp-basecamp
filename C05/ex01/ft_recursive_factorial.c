@@ -12,23 +12,10 @@
 
 #include <stdio.h>
 
-int ft_multiply(int n)
-{
-  if(n >= 1)
-    return n * ft_multiply(n - 1);
-  else
-    return 1;
-}
-
 int ft_recursive_factorial(int nb)
 {
-  if (nb < 0)
-    return (0);
-  else if(nb == 0)
-    return (1);
-
-  int i;
-  int vlr;
-
-  return ft_multiply(nb);
+  if(nb >= 1)
+    return nb * ft_recursive_factorial(nb - 1);
+  else
+    return 1;
 }
