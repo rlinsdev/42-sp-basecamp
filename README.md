@@ -1,7 +1,7 @@
 # 42-basecamp
 Base Camp 42 - SP
 
-## Run in VsCode
+## Runnin in VSCode
 https://www.javatpoint.com/how-to-run-a-c-program-in-visual-studio-code
 
 
