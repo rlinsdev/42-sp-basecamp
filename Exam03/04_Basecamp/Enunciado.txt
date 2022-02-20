@@ -1,0 +1,35 @@
+BASECAMP
+Prototipo esperado: void basecamp(void)
+Função autorizada : write
+Escreva uma função que escreva uma sequência de números de 1 a 100 na saída padrão, todos separados por uma newline.
+
+Se o número for um múltiplo de 3, o programa deverá escrever 'base' no lugar.
+
+Se o número for um múltiplo de 5, o programa deverá escrever 'camp' no lugar.
+
+Se o número for um múltiplo de 3 e um múltiplo de 5, o programa deverá escrever
+'basecamp' no lugar.
+
+Exemplo:
+
+$>./a.out
+1
+2
+base
+4
+camp
+base
+7
+8
+base
+camp
+11
+base
+13
+14
+basecamp
+[...]
+98
+base
+camp
+$>

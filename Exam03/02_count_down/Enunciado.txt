@@ -1,0 +1,9 @@
+COUNT_DOWN
+Prototipo esperado: void ft_countdown(void)
+Função autorizada : write
+Escreva uma função que mostre todos os algarismos em ordem decrescente, seguidos de uma nova linha.
+
+Exemplo:
+ 
+$> ./ft_countdown | cat -e
+9876543210$

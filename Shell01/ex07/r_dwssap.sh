@@ -1,0 +1,2 @@
+cat /etc/passwd | grep -v '^#' | cut -d ':' -f1 | rev | sort -r | awk 'FNR >= ENVIRON["FT_LINE1"] && FNR <= ENVIRON["FT_LINE2"]' | tr '\n' ',' | sed 's/,/, /g' | sed 's/, $/./'
+cat /etc/passwd | grep -v \# | sed -n '2~2p' | cut -d ':' -f 1 | rev | sort -r | sed -n "${FT_LINE1},${FT_LINE2}p" | tr '\n' ' ' | sed 's/ /, /g;s/, $/./'

@@ -1,0 +1,4 @@
+STRLEN
+Prototipo esperado: int ft_strlen(char *str)
+Função autorizada : ----
+Escreva uma função que retorne o comprimento de uma cadeia de caracteres.

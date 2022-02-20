@@ -1,0 +1,28 @@
+AFF_LAST_PARAM
+Prototipo esperado: int aff_last_param_main(int argc, char **argv)
+Função autorizada : write
+Escreva uma função que tenha uma cadeia de caracteres como parâmetro e exiba seu último parametro seguido de uma newline.
+
+Se houver menos de um paramentro, a função deve exibir apenas uma newline.
+
+ 
+A função irá receber como primeiro paramentro (argc) a quantidade de elementos a serem enviados no segundo paramentro (argv).
+ 
+Exemplos:
+
+int    main(void)
+{
+  char *arg0[] = {"zaz", "come", "gatos"};
+  aff_last_param_main(3, arg0);
+  char *arg1[] = {"eu amo sabão"};
+  aff_last_param_main(1, arg1);
+  char **arg2;
+  aff_last_param_main(0, arg2);
+  return (0);
+}
+
+$> ./a.out | cat -e
+gatos$
+eu amo sabão$
+$
+$>

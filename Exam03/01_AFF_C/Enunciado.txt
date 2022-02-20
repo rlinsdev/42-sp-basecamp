@@ -1,0 +1,7 @@
+Prototipo esperado: void aff_c (char *str);
+Função autorizada : write
+ 
+
+Escreva uma função que tenha como parâmetro uma cadeia de caracteres e que exiba na saída padrão o primeiro caractere 'c'
+ encontrado nessa cadeia, seguido de '\n'. 
+Se nenhum 'c' for encontrado na cadeia, o programa deve exibir 'c' seguido de '\n'.
